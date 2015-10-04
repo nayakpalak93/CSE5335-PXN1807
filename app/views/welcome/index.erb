@@ -47,20 +47,20 @@ $("img").hide();
 		{
         
 		console.log(data);
-		document.write("<table border='1'><tr><td>Name</td><td>Director</td><td>Country</td></tr>");
+		document.getElementById("list").innerHTML="<table border='1'><tr><td>Name</td><td>Director</td><td>Country</td></tr>";
 		for(i=0;i<data.length;i++)
 		{
-			document.write("<tr>");
-			document.write("<td>");
-			document.write(data[i].name);
-			document.write("</td>");
-			document.write("<td>");
-			document.write(data[i].Director);
-			document.write("</td>");
-			document.write("<td>");
-			document.write("<button onclick='showmap("+data[i].lattitude+","+data[i].longitude+")'>"+ data[i].country+" </button> ");
-			document.write("</td>");
-			document.write("</tr>");
+			document.getElementById("list").innerHTML+="<tr>";
+			document.getElementById("list").innerHTML+="<td>";
+			document.getElementById("list").innerHTML+=data[i].name;
+			document.getElementById("list").innerHTML+="</td>";
+			document.getElementById("list").innerHTML+="<td>";
+			document.getElementById("list").innerHTML+=data[i].Director;
+			document.getElementById("list").innerHTML+="</td>";
+			document.getElementById("list").innerHTML+="<td>";
+			document.getElementById("list").innerHTML+="<button onclick='showmap("+data[i].lattitude+","+data[i].longitude+")'>"+ data[i].country+" </button> ";
+			document.getElementById("list").innerHTML+="</td>";
+			document.getElementById("list").innerHTML+="</tr>";
 		}
 
     	});
@@ -81,6 +81,9 @@ $("img").hide();
 <button id="show">Show Movie List</button>
 
 
+</div>
+
+<div id="list">
 </div>
 
 <div style="width:600px; height:300px">
