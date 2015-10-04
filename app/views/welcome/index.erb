@@ -47,22 +47,24 @@ $("img").hide();
 		{
         
 		console.log(data);
-		document.write("<table border='1'><tr><td>Name</td><td>Director</td><td>Country</td></tr>");
+		var output = "<table border='1'><tr><td>Name</td><td>Director</td><td>Country</td></tr>";
 		for(i=0;i<data.length;i++)
 		{
-			document.write("<tr>");
-			document.write("<td>");
-			document.write(data[i].name);
-			document.write("</td>");
-			document.write("<td>");
-			document.write(data[i].Director);
-			document.write("</td>");
-			document.write("<td>");
-			document.write("<button onclick='showmap("+data[i].lattitude+","+data[i].longitude+")'>"+ data[i].country+" </button> ");
-			document.write("</td>");
-			document.write("</tr>");
+			output +="<tr>";
+			output +=""<td>";
+			output +=data[i].name;
+			output +="</td>";
+			output +="<td>";
+			output +=data[i].Director;
+			output +="</td>";
+			output +="<td>";
+			output +="<button onclick='showmap("+data[i].lattitude+","+data[i].longitude+")'>"+ data[i].country+" </button> ";
+			output +="</td>";
+			output +="</tr>";
 		}
-		document.write("</table>")
+		output+="</table>";
+		
+		document.getElementById("list").innerHTML = output;
     	});
 });       
       
