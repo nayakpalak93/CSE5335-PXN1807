@@ -19,16 +19,16 @@ def movieList
 "name"=>"Wild Tales",
 "Director"=>"Damian Szifron",
 "country"=>"Argentina",
-"lattitude"=>"",
-"longitude"=>""
+"lattitude"=>"-35.933537", 
+"longitude"=>"-65.620405"
 
 },
 {
 "name"=>"The Way He Looks",
 "Director"=>"Daniel Ribeiro",
 "country"=>"Brazil",
-"lattitude"=>"",
-"longitude"=>""
+"lattitude"=>"-9.466880",
+"longitude"=>"-55.729330"
 
 },
 {
@@ -43,48 +43,48 @@ def movieList
 "name"=>"Turbo Kid",
 "Director"=>"Anouk Whissell",
 "country"=>"Canada",
-"lattitude"=>"",
-"longitude"=>""
+"lattitude"=>"57.090088", 
+"longitude"=>"-102.416015"
 
 },
 {
 "name"=>"The Blue Elephant",
 "Director"=>"Marwan Hamed",
 "country"=>"Egypt",
-"lattitude"=>"",
-"longitude"=>""
+"lattitude"=>"26.354399",
+"longitude"=>"29.872808"
 
 },
 {
 "name"=>"All American High",
 "Director"=>"Keva Rosenfeld",
 "country"=>"Finland",
-"lattitude"=>"",
-"longitude"=>""
+"lattitude"=>"62.390849",
+"longitude"=>"26.286982"
 
 },
 {
 "name"=>"Hitman Agent47",
 "Director"=>"Aleksander Batch",
 "country"=>"Germany",
-"lattitude"=>"",
-"longitude"=>""
+"lattitude"=>"50.847082", 
+"longitude"=>"10.344256"
 
 },
 {
 "name"=>"Stop At Nothing",
 "Director"=>"Chris Thomson",
 "country"=>"Italy",
-"lattitude"=>"",
-"longitude"=>""
+"lattitude"=>"42.688694",
+"longitude"=>"12.595583"
 
 },
 {
 "name"=>"Red Army",
 "Director"=>"Gabe Polsky",
 "country"=>"Russia",
-"lattitude"=>"",
-"longitude"=>""
+"lattitude"=>"60.562957",
+"longitude"=>"105.285156"
 
 }
 ];
