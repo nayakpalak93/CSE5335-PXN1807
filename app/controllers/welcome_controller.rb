@@ -11,8 +11,8 @@ def movieList
 "name"=>"3 Idiots",
 "Director"=>"Rajkumar Hirani",
 "country"=>"India",
-"lattitude"=>"27.171360",
-"longitude"=>"70.0421"
+"lattitude"=>"21.1311083"
+"longitude"=>"82.7792231"
 
 },
 {
