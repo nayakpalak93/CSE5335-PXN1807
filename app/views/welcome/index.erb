@@ -8,33 +8,33 @@
 
 $(document).ready(function()
 {
-$("img").hide();
+	$("img").hide();
 	$("#show").click(function()
 	{
 		console.log("ready clicked");
     		$.get("/movielist", function(data, status)
 		{
         
-		console.log(data);
-		document.write("<table border='1'><tr><td>Name</td><td>Director</td><td>Country</td></tr>");
-		for(i=0;i<data.length;i++)
-		{
-			document.write("<tr>");
-			document.write("<td>");
-			document.write(data[i].name);
-			document.write("</td>");
-			document.write("<td>");
-			document.write(data[i].Director);
-			document.write("</td>");
-			document.write("<td>");
-			document.write("<button onclick='showmap("+data[i].lattitude+","+data[i].longitude+")'>"+ data[i].country+" </button> ");
-			document.write("</td>");
-			document.write("</tr>");
-		}
+			console.log(data);
+			document.write("<table border='1'><tr><td>Name</td><td>Director</td><td>Country</td></tr>");
+			for(i=0;i<data.length;i++)
+			{
+				document.write("<tr>");
+				document.write("<td>");
+				document.write(data[i].name);
+				document.write("</td>");
+				document.write("<td>");
+				document.write(data[i].Director);
+				document.write("</td>");
+				document.write("<td>");
+				document.write("<button onclick='showmap("+data[i].lattitude+","+data[i].longitude+")'>"+ data[i].country+" </button> ");
+				document.write("</td>");
+				document.write("</tr>");
+			}
 
     	});
+	});
 });
-
 </script>
 </head>
 <body>
