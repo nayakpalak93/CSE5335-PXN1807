@@ -50,17 +50,7 @@ $("img").hide();
 		document.getElementById("list").innerHTML="<table border='1'><tr><td>Name</td><td>Director</td><td>Country</td></tr>";
 		for(i=0;i<data.length;i++)
 		{
-			document.getElementById("list").innerHTML+="<tr>";
-			document.getElementById("list").innerHTML+="<td>";
-			document.getElementById("list").innerHTML+=data[i].name;
-			document.getElementById("list").innerHTML+="</td>";
-			document.getElementById("list").innerHTML+="<td>";
-			document.getElementById("list").innerHTML+=data[i].Director;
-			document.getElementById("list").innerHTML+="</td>";
-			document.getElementById("list").innerHTML+="<td>";
-			document.getElementById("list").innerHTML+="<button onclick='showmap("+data[i].lattitude+","+data[i].longitude+")'>"+ data[i].country+" </button> ";
-			document.getElementById("list").innerHTML+="</td>";
-			document.getElementById("list").innerHTML+="</tr>";
+			document.getElementById("list").innerHTML+="<tr><td>data[i].name</td><td>data[i].Director</td><td><button onclick='showmap("+data[i].lattitude+","+data[i].longitude+")'>"+ data[i].country+"</button></td></tr>";
 		}
 		
 		document.getElementById("list").innerHTML+="</table>"
