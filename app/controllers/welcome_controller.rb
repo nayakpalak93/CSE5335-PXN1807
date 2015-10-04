@@ -35,8 +35,8 @@ def movieList
 "name"=>"Glitch",
 "Director"=>"Emma Freeman",
 "country"=>"Australia",
-"lattitude"=>"",
-"longitude"=>""
+"lattitude"=>"-26.396218", 
+"longitude"=>"133.775210"
 
 },
 {
