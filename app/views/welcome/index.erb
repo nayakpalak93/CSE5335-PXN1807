@@ -45,7 +45,7 @@ $("img").hide();
 		console.log("ready clicked");
     		$.get("/movielist", function(data, status)
 		{
-        
+        document.getElementById("list").innerHTML = "Please click Buttons of Country to view it on GOOGLE MAP."
 		console.log(data);
 		var output = "<table border='1'><tr><td>Name</td><td>Director</td><td>Country</td></tr>";
 		for(i=0;i<data.length;i++)
