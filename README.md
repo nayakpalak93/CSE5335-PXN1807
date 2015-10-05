@@ -1,64 +1,47 @@
-# ruby-getting-started
+# **PROJECT PHASE 1** #
 
-A barebones Rails app, which can easily be deployed to Heroku.
+----------
 
-This application support the [Getting Started with Ruby on Heroku](https://devcenter.heroku.com/articles/getting-started-with-ruby) article - check it out.
 
-## Running Locally
+### **NAME :NAYAK PALAK ASHOKBHAI** ###
 
-Make sure you have Ruby installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
-```sh
-$ git clone git@github.com:heroku/ruby-getting-started.git
-$ cd ruby-getting-started
-$ bundle install
-$ bundle exec rake db:create db:migrate
-$ foreman start web
-```
+### **Student ID: 1001241807** ###
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+----------
 
-## Deploying to Heroku
+**1)What Server framework did you choose and Why?**
 
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku run rake db:migrate
-$ heroku open
-```
+I have choosen Ruby on Rails for following reasons:
+-Programmer does not need to worry about configuring files in order to get setup, Rails comes with a set of conventions which help speed up development.
+-Ruby on Rails community advocate Agile web development which is an iterative development method, that encourages collaborative and flexible approach.
+-It is RESTful application design so it encourages a logical structure within applications, which means they can easily be exposed as an API (Application Programming Interface).
+-It handles migrations.
 
-## Docker
+**2)What client side framework did you choose and Why?**
 
-The app can be run and tested using the [Heroku Docker CLI plugin](https://devcenter.heroku.com/articles/introduction-local-development-with-docker).
+I have choosen JQuery for client side scripting because of following reasons: 
+-Easy to execute AJAX request and JSON call.
+-Easy to Operate Document Object Modelling(DOM).
+-It is Cross Browser Friendly.
+-It is free and open source.
+-Integration between javascript and JQuery.
 
-Make sure the plugin is installed:
+**3)What aspects of Implementation did you find easy and Why?**
 
-    heroku plugins:install heroku-docker
+-Designing of HTML page and mapping css and JQuery in it was easy.
 
-Configure Docker and Docker Compose:
+**4)What aspects of Implementation did you find difficult and Why?**
 
-    heroku docker:init
+-Understanding of rails framework,deploying application on heroku server,Understanding the git commands and working of each git command was difficult for me initially as i did not work on any web application.
 
-And run the app locally:
+**5)What components OTHER than your client and server framework did you install, if any, and if so, what is their purpose for your solution?**
 
-    docker-compose up web
+-bundle install command installs all API(Application Programming Interface) we need in our application.Other than that,I have not use any other components.
 
-The app will now be available on the Docker daemon IP on port 8080.
+**6)What Ubuntu Commands are used to deploy your server?**
 
-To work with the local database and do migrations, you can open a shell:
+-Unzip the project file in User directory having ruby on rails.
 
-    docker-compose run shell
-    bundle exec rake db:migrate
-
-You can also use Docker to release to Heroku:
-
-    heroku create
-    heroku docker:release
-    heroku open
-
-## Documentation
-
-For more information about using Ruby on Heroku, see these Dev Center articles:
-
-- [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
+1.cd myrestapp 2.bundle install 3.rails s -b 0.0.0.0
 
