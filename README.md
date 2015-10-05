@@ -43,5 +43,4 @@ I have choosen JQuery for client side scripting because of following reasons:
 
 -Unzip the project file in User directory having ruby on rails.
 
-1.cd myrestapp 2.bundle install 3.rails s -b 0.0.0.0
-
+1.cd myrestapp 2.bundle install 3.rails s -b 0.0.0.0 4.click on `Show Movie List` Button 5.you will see the Movie name,Director name and Country name 6.Click on Country name to view it on **GOOGLE MAP.**
