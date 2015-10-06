@@ -12,7 +12,8 @@ def movieList
 "Director"=>"Rajkumar Hirani",
 "country"=>"India",
 "lattitude"=>"21.1311083",
-"longitude"=>"82.7792231"
+"longitude"=>"82.7792231",
+"people"=>"100000"
 
 },
 {
@@ -20,7 +21,8 @@ def movieList
 "Director"=>"Damian Szifron",
 "country"=>"Argentina",
 "lattitude"=>"-35.933537", 
-"longitude"=>"-65.620405"
+"longitude"=>"-65.620405",
+"people"=>"100000"
 
 },
 {
@@ -28,7 +30,8 @@ def movieList
 "Director"=>"Daniel Ribeiro",
 "country"=>"Brazil",
 "lattitude"=>"-9.466880",
-"longitude"=>"-55.729330"
+"longitude"=>"-55.729330",
+"people"=>"100000"
 
 },
 {
@@ -36,7 +39,8 @@ def movieList
 "Director"=>"Emma Freeman",
 "country"=>"Australia",
 "lattitude"=>"-26.396218", 
-"longitude"=>"133.775210"
+"longitude"=>"133.775210",
+"people"=>"100000"
 
 },
 {
@@ -44,7 +48,8 @@ def movieList
 "Director"=>"Anouk Whissell",
 "country"=>"Canada",
 "lattitude"=>"57.090088", 
-"longitude"=>"-102.416015"
+"longitude"=>"-102.416015",
+"people"=>"100000"
 
 },
 {
@@ -52,7 +57,8 @@ def movieList
 "Director"=>"Marwan Hamed",
 "country"=>"Egypt",
 "lattitude"=>"26.354399",
-"longitude"=>"29.872808"
+"longitude"=>"29.872808",
+"people"=>"100000"
 
 },
 {
@@ -60,7 +66,8 @@ def movieList
 "Director"=>"Keva Rosenfeld",
 "country"=>"Finland",
 "lattitude"=>"62.390849",
-"longitude"=>"26.286982"
+"longitude"=>"26.286982",
+"people"=>"100000"
 
 },
 {
@@ -68,7 +75,8 @@ def movieList
 "Director"=>"Aleksander Batch",
 "country"=>"Germany",
 "lattitude"=>"50.847082", 
-"longitude"=>"10.344256"
+"longitude"=>"10.344256",
+"people"=>"100000"
 
 },
 {
@@ -76,7 +84,8 @@ def movieList
 "Director"=>"Chris Thomson",
 "country"=>"Italy",
 "lattitude"=>"42.688694",
-"longitude"=>"12.595583"
+"longitude"=>"12.595583",
+"people"=>"100000"
 
 },
 {
@@ -84,7 +93,8 @@ def movieList
 "Director"=>"Gabe Polsky",
 "country"=>"Russia",
 "lattitude"=>"60.562957",
-"longitude"=>"105.285156"
+"longitude"=>"105.285156",
+"people"=>"100000"
 
 }
 ];
