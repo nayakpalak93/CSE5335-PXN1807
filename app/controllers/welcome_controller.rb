@@ -22,7 +22,7 @@ def movieList
 "country"=>"Argentina",
 "lattitude"=>"-35.933537", 
 "longitude"=>"-65.620405",
-"people"=>"100000"
+"people"=>"200000"
 
 },
 {
@@ -31,7 +31,7 @@ def movieList
 "country"=>"Brazil",
 "lattitude"=>"-9.466880",
 "longitude"=>"-55.729330",
-"people"=>"100000"
+"people"=>"30000"
 
 },
 {
@@ -40,7 +40,7 @@ def movieList
 "country"=>"Australia",
 "lattitude"=>"-26.396218", 
 "longitude"=>"133.775210",
-"people"=>"100000"
+"people"=>"400000"
 
 },
 {
@@ -49,7 +49,7 @@ def movieList
 "country"=>"Canada",
 "lattitude"=>"57.090088", 
 "longitude"=>"-102.416015",
-"people"=>"100000"
+"people"=>"70000"
 
 },
 {
@@ -58,7 +58,7 @@ def movieList
 "country"=>"Egypt",
 "lattitude"=>"26.354399",
 "longitude"=>"29.872808",
-"people"=>"100000"
+"people"=>"90000"
 
 },
 {
@@ -67,7 +67,7 @@ def movieList
 "country"=>"Finland",
 "lattitude"=>"62.390849",
 "longitude"=>"26.286982",
-"people"=>"100000"
+"people"=>"800000"
 
 },
 {
@@ -76,7 +76,7 @@ def movieList
 "country"=>"Germany",
 "lattitude"=>"50.847082", 
 "longitude"=>"10.344256",
-"people"=>"100000"
+"people"=>"30000"
 
 },
 {
@@ -85,7 +85,7 @@ def movieList
 "country"=>"Italy",
 "lattitude"=>"42.688694",
 "longitude"=>"12.595583",
-"people"=>"100000"
+"people"=>"650000"
 
 },
 {
@@ -94,7 +94,7 @@ def movieList
 "country"=>"Russia",
 "lattitude"=>"60.562957",
 "longitude"=>"105.285156",
-"people"=>"100000"
+"people"=>"8500000"
 
 }
 ];
