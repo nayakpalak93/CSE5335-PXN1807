@@ -45,7 +45,7 @@ $(".graph").hide();
 		console.log("ready clicked");
     		$.get("/movielist", function(data, status)
 		{
-        document.getElementById("list").innerHTML = "Please click Buttons of Country to view it on GOOGLE MAP."
+       
 		console.log(data);
 		var output = "<table border='1'><tr><td>Name</td><td>Director</td><td>Country</td></tr>";
 		for(i=0;i<data.length;i++)
@@ -128,9 +128,7 @@ left:70%
 	<button id="show">Show Movie List</button>
 	</div>
 
-	<div id="list">
-	</div>
-
+	
 <div style="width:600px; height:300px">
 <img id="maps" src=" "  width="600" height="300" style="border:0">
 
