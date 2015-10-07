@@ -38,9 +38,10 @@ function showmap(lat,lon)
 $(document).ready(function()
 {
 $(".graph").hide();
-showmap("+21.1311083+","+82.7792231+");
+
 	$("#show").click(function()
 	{
+showmap("+21.1311083+","+82.7792231+");
 		console.log("ready clicked");
     		$.get("/movielist", function(data, status)
 		{
